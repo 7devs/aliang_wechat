@@ -1,0 +1,28 @@
+{
+  "name": "weixindev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliang1122/weixindev.git"
+  },
+  "keywords": [
+    "weixin"
+  ],
+  "author": "aliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliang1122/weixindev/issues"
+  },
+  "homepage": "https://github.com/aliang1122/weixindev#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "xml": "^1.0.1"
+  }
+}
