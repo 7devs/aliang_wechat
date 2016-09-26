@@ -1,0 +1,34 @@
+{
+    "button": [
+        {
+            "name": "功能",
+            "sub_button": [
+                {
+                    "name": "点击",
+                    "type": "click",
+                    "key": "menu11"
+                },
+                {
+                    "name":"扫一扫",
+                    "type":"scancode_push",
+                    "key":"menu12"
+                },
+                {
+                    "name":"发送图片",
+                    "type":"pic_photo_or_album",
+                    "key":"menu13"
+                }
+            ]
+        },
+        {
+            "name": "菜单2",
+            "type": "click",
+            "key": "menu2"
+        },
+        {
+            "name": "Lutheran",
+            "type": "view",
+            "url": "http://www.lutheran.cn/"
+        }
+    ]
+}
