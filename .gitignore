@@ -2,6 +2,7 @@
 node_modules
 .DS_Store
 log
+*.txt
 =======
 # Logs
 logs
