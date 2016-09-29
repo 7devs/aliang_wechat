@@ -1,5 +1,6 @@
 {
-    "button": [{
+    "button": [
+    {
         "name": "功能",
         "sub_button": [{
             "name": "点击",
@@ -18,7 +19,8 @@
             "type": "scancode_waitmsg",
             "key": "menu14"
         }]
-    }, {
+    },
+    {
         "name": "图文",
         "sub_button": [{
             "name": "拍照发图",
@@ -37,9 +39,8 @@
             "type": "location_select",
             "key": "menu24"
         }]
-
-
-    }, {
+    },
+    {
         "name": "Links",
         "sub_button": [{
             "name": "Lutheran",
