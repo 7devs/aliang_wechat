@@ -24,20 +24,16 @@
         "name": "图文",
         "sub_button": [{
             "name": "拍照发图",
-            "type": "pic_syshphoto",
+            "type": "pic_sysphoto",
             "key": "menu21"
         }, {
             "name": "微信相册发图",
             "type": "pic_weixin",
             "key": "menu22"
         }, {
-            "name": "图文消息",
-            "type": "media_id",
-            "media_id": "test01"
-        }, {
             "name": "在哪",
             "type": "location_select",
-            "key": "menu24"
+            "key": "menu23"
         }]
     },
     {
