@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
 
 wechat(conf.wechat);
 
-wechat.deleteMenu(require('./lib/menu.json'));
+// wechat.deleteMenu(require('./lib/menu.json'));
 
 wechat.createMenu(require('./lib/menu.json'));
 
