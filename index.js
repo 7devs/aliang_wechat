@@ -9,6 +9,8 @@ app.use(bodyParser.urlencoded({
 
 wechat(conf.wechat);
 
+wechat.deleteMenu(require('./lib/menu.json'));
+
 wechat.createMenu(require('./lib/menu.json'));
 
 app.use('/wxapi',require('./lib/routers/wxapi.js'));
