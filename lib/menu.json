@@ -1,34 +1,54 @@
 {
-    "button": [
-        {
-            "name": "功能",
-            "sub_button": [
-                {
-                    "name": "点击",
-                    "type": "click",
-                    "key": "menu11"
-                },
-                {
-                    "name":"扫一扫",
-                    "type":"scancode_push",
-                    "key":"menu12"
-                },
-                {
-                    "name":"发送图片",
-                    "type":"pic_photo_or_album",
-                    "key":"menu13"
-                }
-            ]
-        },
-        {
-            "name": "菜单2",
+    "button": [{
+        "name": "功能",
+        "sub_button": [{
+            "name": "点击",
             "type": "click",
-            "key": "menu2"
-        },
-        {
+            "key": "menu11"
+        }, {
+            "name": "扫一扫",
+            "type": "scancode_push",
+            "key": "menu12"
+        }, {
+            "name": "发送图片",
+            "type": "pic_photo_or_album",
+            "key": "menu13"
+        }, {
+            "name": "扫码发消息",
+            "type": "scancode_waitmsg",
+            "key": "menu14"
+        }]
+    }, {
+        "name": "图文",
+        "sub_button": [{
+            "name": "拍照发图",
+            "type": "pic_syshphoto",
+            "key": "menu21"
+        }, {
+            "name": "微信相册发图",
+            "type": "pic_weixin",
+            "key": "menu22"
+        }, {
+            "name": "图文消息",
+            "type": "media_id",
+            "media_id": "test01"
+        }, {
+            "name": "在哪",
+            "type": "location_select",
+            "key": "menu24"
+        }]
+
+
+    }, {
+        "name": "Links",
+        "sub_button": [{
             "name": "Lutheran",
             "type": "view",
             "url": "http://www.lutheran.cn/"
-        }
-    ]
+        }, {
+            "name": "Yokeneng",
+            "type": "view",
+            "url": "http://www.yokeneng.com/"
+        }]
+    }]
 }
