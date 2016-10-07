@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/aliang1122/weixindev#readme",
   "dependencies": {
+    "async": "^2.0.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-xml-bodyparser": "^0.3.0",
     "request": "^2.75.0",
-    "weui": "^1.0.1",
     "xml": "^1.0.1"
   }
 }
